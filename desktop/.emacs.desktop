@@ -1,0 +1,319 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Jan 28 23:12:46 2023
+;; Desktop file format version 208
+;; Emacs version 28.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (25557 62014 509221 0) (desktop . "208") "jturcotti@jturcotti-macbook" nil nil ((((minibuffer . t) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#cccccc") (background-color . "#202020") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance) (ns-transparent-titlebar) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (scroll-bar-height . 15) (alpha) (fullscreen . fullboth) (display-type . color) (background-mode . dark) (cursor-color . "#ffffff") (scroll-bar-foreground . "white") (environment) (last-focus-update . t) (tabs (current-tab (name . "init.el") (explicit-name))) (frameset--id . "C7EE-3870-ACF9-9BCB") (frameset--mini t . t) (height . 102) (width . 362) (modeline . t) (unsplittable) (left . 2674) (top . 128) (icon-name) (visibility . t) (display . "jturcotti-macbook") (explicit-name) (tool-bar-position . top)) ((min-height . 8) (min-width . 40) (min-height-ignore . 4) (min-width-ignore . 31) (min-height-safe . 2) (min-width-safe . 8) (min-pixel-height . 112) (min-pixel-width . 280) (min-pixel-height-ignore . 56) (min-pixel-width-ignore . 217) (min-pixel-height-safe . 28) (min-pixel-width-safe . 56)) hc (pixel-width . 2550) (pixel-height . 1414) (total-width . 364) (total-height . 101) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (vc (pixel-width . 639) (pixel-height . 1414) (total-width . 91) (total-height . 101) (normal-height . 1.0) (normal-width . 0.25058823529411767) (combination-limit) (leaf (pixel-width . 639) (pixel-height . 707) (total-width . 91) (total-height . 50) (normal-height . 0.5) (normal-width . 1.0) (buffer "interference_paths.ml" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins 3) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 13211) (start . 12637)) (prev-buffers ("magit-diff: probprovtypes" 1 1) ("interference_paths.ml" 12116 13211) ("main.ml" 1 995) ("*Occur*" 1 1) ("init.el" 11444 12369) ("*scratch*" 1 1))) (leaf (last . t) (pixel-width . 639) (pixel-height . 707) (total-width . 91) (total-height . 51) (normal-height . 0.5) (normal-width . 1.0) (buffer "magit: probprovtypes" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins 2) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 819) (start . 1)) (prev-buffers ("magit: probprovtypes" 1 1)))) (vc (pixel-width . 637) (pixel-height . 1414) (total-width . 91) (total-height . 101) (normal-height . 1.0) (normal-width . 0.24980392156862746) (combination-limit) (leaf (pixel-width . 637) (pixel-height . 707) (total-width . 91) (total-height . 50) (normal-height . 0.5) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins 3) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 12401) (start . 11282)) (prev-buffers ("interference_paths.ml" 7199 8679) ("flow_main.ml" 1 94) ("expr_repr.ml" 1 1) ("expr.ml" 1 1) ("makefile" 1 395) ("set.ml<bin>" 1 1140) ("dune" 1 134) ("*Completions*" 1 1) ("*Colors*" 1 1))) (leaf (last . t) (pixel-width . 637) (pixel-height . 707) (total-width . 91) (total-height . 51) (normal-height . 0.5) (normal-width . 1.0) (buffer "colors.ml" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins 1) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 79) (start . 1)) (prev-buffers ("analyze.ml" 21857 22798) (".gitignore" 1 54) ("interference_paths.ml" 1770 2639)))) (vc (pixel-width . 637) (pixel-height . 1414) (total-width . 91) (total-height . 101) (normal-height . 1.0) (normal-width . 0.24980392156862746) (combination-limit) (leaf (pixel-width . 637) (pixel-height . 707) (total-width . 91) (total-height . 50) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins 2) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)) (prev-buffers ("expr.ml" 1 1) ("logger.ml" 6037 7323) ("stdlib.ml" 1 1478) ("expr_repr.ml" 1 37) ("interference_paths.ml" 1 1))) (leaf (last . t) (pixel-width . 637) (pixel-height . 707) (total-width . 91) (total-height . 51) (normal-height . 0.5) (normal-width . 1.0) (buffer "analyze.ml" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins 3) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 25515) (start . 24770)) (prev-buffers ("interference_paths.ml" 1706 2929) ("makefile" 1 649) (".ocamldebug" 1 1) ("*merlin-types*" 1 1) ("expr.ml" 1158 1526) ("*Occur*" 1 1)))) (vc (last . t) (pixel-width . 637) (pixel-height . 1414) (total-width . 91) (total-height . 101) (normal-height . 1.0) (normal-width . 0.24980392156862746) (combination-limit) (leaf (pixel-width . 637) (pixel-height . 719) (total-width . 91) (total-height . 51) (normal-height . 0.5099009900990099) (normal-width . 1.0) (buffer "flow_main.ml" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins 2) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 738) (start . 1)) (next-buffers "set.ml<ocaml>") (prev-buffers ("set.ml<ocaml>" 5765 6786) ("flow_main.ml" 1 1) ("magit: probprovtypes" 1 1) ("typecheck.ml" 6633 7862) ("analyze.ml" 25194 25693) ("raw_expr.ml" 1 1) ("parser.mly" 1 22) ("interference_paths.ml" 1 1))) (leaf (last . t) (pixel-width . 637) (pixel-height . 695) (total-width . 91) (total-height . 50) (normal-height . 0.4900990099009901) (normal-width . 1.0) (buffer "tinytest" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins 2) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 6) (start . 1)) (next-buffers "tinytest") (prev-buffers ("tinytest" 1 1) ("typecheck.ml" 6633 7093) ("analyze.ml" 24395 25465) ("flow_main.ml" 1 95) ("makefile" 1 187) ("util.ml" 890 1224) ("init.el" 11314 12369))))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '(#("format_rgb" 0 10 (isearch-regexp-function nil isearch-case-fold-search t)) #("Colors." 0 7 (isearch-regexp-function nil isearch-case-fold-search nil)) #("format_by_float" 0 15 (isearch-regexp-function nil isearch-case-fold-search t)) #("diff" 0 4 (isearch-regexp-function nil isearch-case-fold-search t)) #("cardinal" 0 8 (isearch-regexp-function nil isearch-case-fold-search t)) #("TraceS" 0 6 (isearch-regexp-function nil isearch-case-fold-search nil)) #("compute_trace" 0 13 (isearch-regexp-function nil isearch-case-fold-search t)) #("std_form" 0 8 (isearch-regexp-function nil isearch-case-fold-search t)) #("Skip" 0 4 (isearch-regexp-function nil isearch-case-fold-search nil)) #("format_" 0 7 (isearch-regexp-function nil isearch-case-fold-search t)) #("std" 0 3 (isearch-regexp-function nil isearch-case-fold-search t)) #("check_first" 0 11 (isearch-regexp-function nil isearch-case-fold-search t)) #("local_to" 0 8 (isearch-regexp-function nil isearch-case-fold-search t)) #("format" 0 6 (isearch-regexp-function nil isearch-case-fold-search t)) #("lift_for" 0 8 (isearch-regexp-function nil isearch-case-fold-search t)) #("subtrace contains" 0 17 (isearch-regexp-function nil isearch-case-fold-search t))))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/desktop/" "~/.emacs.d/init.el" "~/repos/dune/probprovtypes/bin/colors.ml" "~/repos/dune/probprovtypes/bin/analyze.ml" "~/repos/dune/probprovtypes/.gitignore" "~/repos/dune/probprovtypes/bin/interference_paths.ml" "~/repos/dune/probprovtypes/bin/main.ml" "~/repos/dune/probprovtypes/bin/expr.ml" "~/repos/dune/probprovtypes/test/flow_main" "~/repos/dune/probprovtypes/bin/interference_paths.ml" "~/repos/dune/probprovtypes/test/flow_main" "~/repos/dune/probprovtypes/bin/logger.ml" "~/repos/dune/probprovtypes/bin/.ocamldebug" "~/repos/dune/probprovtypes/bin/util.ml" "~/repos/dune/probprovtypes/bin/interference_paths.ml" "~/repos/dune/probprovtypes/bin/makefile" "~/repos/dune/probprovtypes/bin/expr_repr.ml" "~/repos/dune/probprovtypes/bin/interference_paths.ml" "~/repos/dune/probprovtypes/bin/makefile" "~/repos/dune/probprovtypes/bin/dune" "~/repos/dune/probprovtypes/bin/set.ml" "~/repos/dune/probprovtypes/bin/map.ml" "~/repos/dune/probprovtypes/bin/util.ml" "~/repos/dune/probprovtypes/test/tinytest" "~/repos/dune/probprovtypes/bin/tinytest" "~/repos/dune/probprovtypes/bin/flow_main.ml" "~/repos/dune/probprovtypes/bin/makefile" "~/repos/dune/probprovtypes/bin/io.ml" "~/repos/dune/probprovtypes/bin/flow_main.ml" "~/repos/dune/probprovtypes/bin/analyze.ml" "~/repos/dune/probprovtypes/bin/makefile" "~/repos/dune/probprovtypes/bin/interference_paths.ml" "~/repos/dune/probprovtypes/bin/expr.ml" "~/repos/dune/probprovtypes/bin/refactor.ml" "~/.emacs.d/init.el" "~/repos/dune/probprovtypes/bin/util.ml" "~/repos/dune/probprovtypes/bin/refactor.ml" "~/repos/dune/probprovtypes/bin/typecheck.ml" "~/repos/dune/probprovtypes/bin/analyze.ml" "~/repos/dune/probprovtypes/bin/makefile" "~/repos/dune/probprovtypes/bin/interference_paths.ml" "~/repos/dune/probprovtypes/bin/typecheck.ml" "~/repos/dune/probprovtypes/bin/raw_expr.ml" "~/repos/dune/probprovtypes/bin/parser.mly" "~/repos/dune/probprovtypes/bin/raw_expr.ml" "~/repos/dune/probprovtypes/bin/expr.ml" "~/repos/dune/probprovtypes/bin/main.ml" "~/repos/dune/probprovtypes/bin/interference_paths.ml" "~/.emacs.d/init.el" "~/repos/dune/probprovtypes/bin/interference_paths.ml" "~/.emacs.d/" "~/repos/dune/probprovtypes/bin/typecheck.ml" "~/.emacs.d/init.el" "~/repos/dune/probprovtypes/bin/analyze.ml"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/jturcotti/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode override-global-mode)
+  12401
+  '(12370 nil)
+  nil
+  nil
+  '((buffer-display-time 25557 62008 531380 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/colors.ml"
+  "colors.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  79
+  '(206 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 62008 531381 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (79))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/interference_paths.ml"
+  "interference_paths.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  13211
+  '(10653 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 62008 531379 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (2639 306 10423 1 5858 94 2963 8940 10616 1435 2132 10616 9520 5128 10618 8679))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/analyze.ml"
+  "analyze.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  25515
+  '(22963 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 62008 531383 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (22906 22790 25927 23920 23962 24005 24005 23925 25618 24970 25247 2101 25404 26911 25821 25515))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/test/tinytest"
+  "tinytest"
+  'python-mode
+  '(eldoc-mode linum-mode override-global-mode auto-revert-mode)
+  6
+  '(57 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 25557 62008 531386 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (87 85 54 178 178 178 178 178 54 54 54 85 85 85 57 16))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/flow_main.ml"
+  "flow_main.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  738
+  '(998 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 62008 531385 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1449 519 519 1150 37 1150 1150 1150 312 131 1449 1151 156 95 1 736))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/expr.ml"
+  "expr.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  1
+  '(1399 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 61784 385214 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1 1420 1428 71 6734 1428 6794 6884 6835 6730 6223 7301 7740 177 178 178))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(linum-mode override-global-mode auto-revert-mode)
+  54
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25557 57399 163992 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/.opam/default/lib/ocaml/set.ml"
+  "set.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode)
+  6786
+  '(6786 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 57025 482119 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/main.ml"
+  "main.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  7
+  '(38 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 55052 729075 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (995 691 263 96 662 96 678 11 11 770 666 837 385 31 824 385))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/util.ml"
+  "util.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  2357
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 55036 923497 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1589 1158 1224 974 738 1125 1044 891 2244 2164 1998 653 1997 4415 520 2357))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/logger.ml"
+  "logger.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  7323
+  '(52 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 54922 687149 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/.opam/default/lib/ocaml/stdlib.ml"
+  "stdlib.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode)
+  1478
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 54919 436225 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/.ocamldebug"
+  ".ocamldebug"
+  'fundamental-mode
+  '(linum-mode override-global-mode auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25557 57317 352060 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/expr_repr.ml"
+  "expr_repr.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  37
+  '(998 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 54329 447116 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1363 901 1510))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/makefile"
+  "makefile"
+  'makefile-bsdmake-mode
+  '(linum-mode override-global-mode auto-revert-mode)
+  649
+  '(395 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 25557 57318 438266 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (395 320 388 269 9 247 247 422 320 240 278 397 396 395 378 649))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/map.ml"
+  "map.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  1209
+  '(1457 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 53429 245598 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1209))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/set.ml"
+  "set.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  1140
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 53282 851179 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/dune"
+  "dune"
+  'dune-mode
+  '(linum-mode override-global-mode auto-revert-mode)
+  134
+  '(87 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 52970 344377 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1 87 87 133 87 1 133 87 87 87 12 87 87 132 134))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/io.ml"
+  "io.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  582
+  '(331 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 52141 275026 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1258 1 331 582))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/typecheck.ml"
+  "typecheck.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  7093
+  '(7492 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 51347 151657 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (7519 7862 7503 7503 7490 7490 7502 2941 821 8180 7473 7093))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/refactor.ml"
+  "refactor.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  13135
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 33114 669245 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/context.ml"
+  "context.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  8537
+  '(11516 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 30587 773236 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (7864 7995 8106 8000 7999 8198))))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/raw_expr.ml"
+  "raw_expr.ml"
+  'tuareg-mode
+  '(eldoc-mode linum-mode merlin-mode override-global-mode utop-minor-mode auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 25557 24452 499762 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/jturcotti/repos/dune/probprovtypes/bin/parser.mly"
+  "parser.mly"
+  'tuareg-menhir-mode
+  '(linum-mode override-global-mode auto-revert-mode)
+  22
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25557 24255 499511 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+

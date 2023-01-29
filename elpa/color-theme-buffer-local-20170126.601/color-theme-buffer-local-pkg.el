@@ -1,0 +1,2 @@
+;;; Generated package description from color-theme-buffer-local.el  -*- no-byte-compile: t -*-
+(define-package "color-theme-buffer-local" "20170126.601" "Install color-themes by buffer." '((color-theme "0")) :commit "faf7415c99e132094f1f09c6b6974ec118a18d87" :authors '(("Victor Borja" . "vic.borja@gmail.com")) :maintainer '("Victor Borja" . "vic.borja@gmail.com") :keywords '("faces") :url "http://github.com/vic/color-theme-buffer-local")
