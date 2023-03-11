@@ -31,7 +31,7 @@
  '(ns-alternate-modifier 'meta)
  '(ns-command-modifier 'super)
  '(package-selected-packages
-   '(auto-dim-other-buffers color-theme-buffer-local magit flycheck-ocaml merlin-eldoc merlin dune tuareg auctex math-symbols unicode-math-input multiple-cursors math-symbol-lists proof-general yasnippet pdf-tools go-mode haskell-mode))
+   '(elgrep auto-dim-other-buffers color-theme-buffer-local magit flycheck-ocaml merlin-eldoc merlin dune tuareg auctex math-symbols unicode-math-input multiple-cursors math-symbol-lists proof-general yasnippet pdf-tools go-mode haskell-mode))
  '(proof-electric-terminator-enable nil))
 
 ;;(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
@@ -328,8 +328,6 @@
   :config
   (flycheck-ocaml-setup))
 
-;;this defines the useful "multi-occur-in-thus-mode
-
 (eval-when-compile
   (require 'cl))
 
@@ -351,6 +349,7 @@
    (get-buffers-matching-mode major-mode)
    (car (occur-read-primary-args))))
 
+;;this defines the useful "multi-occur-in-thus-mode
 ;; global key for `multi-occur-in-this-mode' - you should change this.
 (global-set-key (kbd "C-x C-5") 'multi-occur-in-this-mode)
 

@@ -31,7 +31,7 @@
  '(ns-alternate-modifier 'meta)
  '(ns-command-modifier 'super)
  '(package-selected-packages
-   '(auto-dim-other-buffers color-theme-buffer-local magit flycheck-ocaml merlin-eldoc merlin dune tuareg auctex math-symbols unicode-math-input multiple-cursors math-symbol-lists proof-general yasnippet pdf-tools go-mode haskell-mode))
+   '(elgrep auto-dim-other-buffers color-theme-buffer-local magit flycheck-ocaml merlin-eldoc merlin dune tuareg auctex math-symbols unicode-math-input multiple-cursors math-symbol-lists proof-general yasnippet pdf-tools go-mode haskell-mode))
  '(proof-electric-terminator-enable nil))
 
 ;;(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
@@ -117,6 +117,7 @@
     (local-set-key (kbd "<C-up>") 'proof-undo-last-successful-command)
     (local-set-key (kbd "<C-right>") 'proof-goto-point)
     (local-set-key (kbd "<C-left>") 'proof-undo-and-delete-successful-command)
+    (local-set-key (kbd "C-c C-3") 'proof-three-window-toggle) 
 )
 
 (add-hook 'proof-mode-hook 'proof-mode-config)
@@ -135,6 +136,7 @@
       ("\\G" ?Γ)
       ("\\H" ?ℋ)
       ("\\N" ?ℕ)
+      ("\\emp" ?∅)
 ;;       ("\\re" ?ℛ)
       ("\\F" ?ℱ)
       ("\\R" ?Ρ)
@@ -176,9 +178,13 @@
       ("\\ncnt" ?∌)
       ("\\*" ?×)
       ("\\sub" ?⊂)
+      ("\\nsub" ?⊄)
       ("\\subeq" ?⊆)
+      ("\\nsubeq" ?⊈)
       ("\\sup" ?⊃)
+      ("\\nsup" ?⊅)
       ("\\supeq" ?⊇)
+      ("\\nsupeq" ?⊉)
       ("\\scup" ?⊔)
       ("\\scap" ?⊓)
       ("\\ssubeq" ?⊑)
@@ -195,9 +201,9 @@
       ("\\mp" ?∘)
       ("\\dd" ?‡)
       ("\\<<" ?⟪)
-("\\>>" ?⟫)
+       ("\\>>" ?⟫)
       ("\\<" ?⟨)
-("\\>" ?⟩)
+       ("\\>" ?⟩)
       ("\\op" ?⊕)
       ("\\t" ?τ)
       ("\\fdo" ?⦙)
@@ -359,3 +365,27 @@
 (put 'set-goal-column 'disabled nil)
 
 (auto-dim-other-buffers-mode t)
+
+(defun buffer-file-extension ()
+  (concat "\." (car (last (split-string buffer-file-name "\\."))) "$"))
+
+(defun open-files-recursively-matching-extension ()
+  (interactive
+   (dolist (f (directory-files-recursively
+	       (file-name-directory buffer-file-name)
+	       (buffer-file-extension)))
+     (find-file f))))
+(global-set-key (kbd "C-x C-4") `open-files-recursively-matching-extension)
+
+(defun elgrep-region-matching-extension ()
+  (interactive)
+  (elgrep (file-name-directory buffer-file-name)
+	  (buffer-file-extension)
+	  (buffer-substring-no-properties (region-beginning) (region-end))
+	  :interactive t
+	  )
+    )
+(global-set-key (kbd "C-x C-6") `elgrep-region-matching-extension)
+
+;; add cpdttactics
+((coq-mode . ((coq-prog-args . ("-emacs" "-R" "~/lib/coq/cpdtlib" "Cpdt")))))
